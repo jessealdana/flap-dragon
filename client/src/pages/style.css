@@ -1,0 +1,142 @@
+.body {
+    background-image: url("./images/scales.png");
+    background-repeat: repeat;
+}
+
+#eye {
+    width: 74%;
+    margin-left: 13%;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: aliceblue;
+}
+.nav a {
+    display: flex;
+    float: left;
+    color: #a4cc9a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 34px;
+}
+
+#sidebar {
+    padding-top: 2%;
+    width: 25%;
+    margin-left: 0;
+    background-color: darkolivegreen;
+    height: 100%;
+    border-style: double;
+    border-color: rgb(56, 92, 72);
+    border-width: 3px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: #a4cc9a;
+    text-align: center;
+}
+/* 
+#blurb {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
+} */
+
+#flappy {
+    color: rgb(112, 10, 10);
+}
+
+
+#torso {
+    background-color: rgb(194, 214, 194);
+    width: 70%;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-style: solid;
+    border-color: darkgreen;
+    border-width: 3px;
+}
+
+#aboutTitle {
+    width: 74%;
+    margin-left: 13%;
+    margin-right: auto;
+    background-color: rgb(56, 92, 72);
+    color: seashell;
+    text-align: center;
+    margin-top: 1%;
+    border-style: double;
+    border-color: seashell;
+    border-width: 3px;
+}
+
+#legs {
+    background-color: rgb(194, 214, 194);
+    width: 36%;
+    margin-left: 32%;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: rgb(54, 129, 119);
+    border-width: 3px;
+}
+
+#common, #uncommon, #rare, #formP, #aboutP {
+    border-style: double;
+    border-color: rgb(207, 236, 232);
+    border-width: 3px;
+    text-align: left;
+}
+
+
+  .cardBody {
+      padding-top: 2%;
+      width: 75%;
+      /* background-color: rgb(178, 192, 164); */
+      height: 100vh;
+  }
+
+  #caption {
+      padding-top: 10%;
+  }
+
+  #guides {
+      background-color: rgb(207, 236, 232);
+      width: 50%;
+      margin-left: 25%;
+      margin-right: auto;
+      border-style: solid;
+      border-color: black;
+      border-width: 3px;
+      border-radius: 3px;
+      padding: 10px;
+      margin-bottom: 10px;
+  }
+
+  #scaly {
+      width: 100%;
+      height: auto;
+  }
+
+  #frequency {
+      color: white;
+  }
+  
+
+
+
+
+ 
+
+ 

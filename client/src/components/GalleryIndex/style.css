@@ -1,0 +1,23 @@
+#fullbar {
+    height: auto;
+}
+
+#index {
+    background-color: darkolivegreen;
+    height: auto;
+    width: auto;
+}
+
+#snow, #sun,
+#grass, #peach,
+#surf, #cove,
+#phalanx, #wight,
+#popcorn, #shelled,
+#gossamer, #chime,
+#shimmer {
+    width: 100%;
+}
+
+#frequency {
+    color: darkolivegreen;
+}
