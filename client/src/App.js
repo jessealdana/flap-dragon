@@ -27,7 +27,7 @@ function App() {
         <StoreProvider>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/sightings" component={Home} />
+            <Route exact path="/home" component={Home} />
             <Route exact path="/favorites" component={FavoritesList} />
             <Route exact path="/sightings/:id" component={Detail} />
             <Route exact path="/fieldguide" component={FieldGuide} />
