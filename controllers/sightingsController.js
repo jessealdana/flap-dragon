@@ -1,6 +1,6 @@
 const db = require("../models");
 
-// Defining methods for the postsController
+// Defining methods for the sightingsController
 module.exports = {
   findAll: function(req, res) {
     db.Sighting.find(req.query)
