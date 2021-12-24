@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2cb2d8bd.css",
+    "main.js": "/static/js/main.16e96e24.js",
+    "static/media/eye.png": "/static/media/eye.6afd57cd46dcbdf174a0.png",
+    "static/media/gossamerDragon.png": "/static/media/gossamerDragon.e64993081d7daed9f0bc.png",
+    "static/media/sunDragon.png": "/static/media/sunDragon.10f709eb33dde30fe117.png",
+    "static/media/grassDragon.png": "/static/media/grassDragon.ad18c4c0a749c7cb9009.png",
+    "static/media/peachDragon.png": "/static/media/peachDragon.301c98c51baf9741d4c0.png",
+    "static/media/snowDragon.png": "/static/media/snowDragon.a42f837b823f85b6acb4.png",
+    "static/media/shimmerDragon.png": "/static/media/shimmerDragon.524dfe57761eb63504af.png",
+    "static/media/shelledDragon.png": "/static/media/shelledDragon.f82d6b0ab8c60bd5f3e1.png",
+    "static/media/wightDragon.png": "/static/media/wightDragon.c3e67969f83639b13885.png",
+    "static/media/surfDragon.png": "/static/media/surfDragon.82801735bb528f20c5d7.png",
+    "static/media/chimeDragon.png": "/static/media/chimeDragon.34ada68a9d710be26798.png",
+    "static/media/scales.png": "/static/media/scales.6fdff0c2bca3ebe2967e.png",
+    "static/media/coveDragon.png": "/static/media/coveDragon.6fc3c4a3d9423c7dc922.png",
+    "index.html": "/index.html",
+    "main.2cb2d8bd.css.map": "/static/css/main.2cb2d8bd.css.map",
+    "main.16e96e24.js.map": "/static/js/main.16e96e24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cb2d8bd.css",
+    "static/js/main.16e96e24.js"
+  ]
+}
