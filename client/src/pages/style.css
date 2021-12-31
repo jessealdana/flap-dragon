@@ -113,8 +113,8 @@
 
   #guides {
       background-color: rgb(207, 236, 232);
-      width: 50%;
-      margin-left: 25%;
+      width: 80%;
+      margin-left: 10%;
       margin-right: auto;
       border-style: solid;
       border-color: black;
@@ -122,6 +122,22 @@
       border-radius: 3px;
       padding: 10px;
       margin-bottom: 10px;
+  }
+
+  #gif {
+      border-style: solid;
+      border-color: darkolivegreen;
+      border-width: 3px;
+      border-radius: 3px;
+      width: 50%;
+      margin-left: 25%;
+      margin-right: auto;
+  }
+
+  #fieldbutton {
+      width: 100%;
+      margin-left: 40%;
+      margin-right: auto;
   }
 
   #scaly {

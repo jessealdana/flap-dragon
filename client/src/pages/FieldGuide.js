@@ -1,9 +1,11 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
+import { Link } from "react-router-dom";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import "./style.css";
 import Scales from "../pages/images/scales.png"
+import Dragonsoar from "./images/dragonsoar.gif";
 
 function FieldGuide() {
     return (
@@ -15,7 +17,7 @@ function FieldGuide() {
             </Row>
             <Row>
                 <h2 id="aboutTitle">About Dragons That Are Flappy</h2>
-                    <Col size="md-6">
+                    <Col size="md-4">
                         <div id="guides">
                             <h5 style={{backgroundColor: "whitesmoke", padding: "2px", borderStyle: "solid", borderColor: "black", borderWidth: "1px"}}>Not All Dragons Flap Frequently</h5>
                             <p>
@@ -25,9 +27,17 @@ function FieldGuide() {
                                 Others flutter about, seemingly haphazardly, while navigating dense networks of passages 
                                 like city canyons or leafy brambles and flap almost continuously.
                             </p>
+                            <Link to="/soar">
+                                <button id="soar">Soaring</button>
+                            </Link>
                         </div>
                     </Col>
-                    <Col size="md-6" id="guides">
+                    <Col size="md-4">
+                        <Row>
+                            <img src={Dragonsoar} alt="soar gif" id="gif" />
+                        </Row>
+                    </Col>
+                    <Col size="md-4" id="guides">
                         <div id="guides">
                             <h5 style={{backgroundColor: "whitesmoke", padding: "2px", borderStyle: "solid", borderColor: "black", borderWidth: "1px"}}>Form Follows Function</h5>
                             <p>

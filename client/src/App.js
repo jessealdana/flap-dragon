@@ -16,6 +16,7 @@ import Wight from "./pages/Wight";
 import Gossamer from "./pages/Gossamer";
 import Chime from "./pages/Chime";
 import Shelled from "./pages/Shelled";
+import Soaring from "./pages/Soaring"
 import { StoreProvider } from "./utils/GlobalState";
 import FavoritesList from "./pages/FavoritesList";
 import "./pages/style.css";
@@ -31,6 +32,7 @@ function App() {
             <Route exact path="/favorites" component={FavoritesList} />
             <Route exact path="/sightings/:id" component={Detail} />
             <Route exact path="/fieldguide" component={FieldGuide} />
+            <Route exact path="/soar" component={Soaring} />
             <Route exact path="/dragonindex" component={DragonIndex} />
             <Route exact path="/snow" component={Snow} />
             <Route exact path="/sun" component={Sun} />
