@@ -1,11 +1,12 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import "./style.css";
 import Scales from "../pages/images/scales.png"
 import Dragonsoar from "./images/dragonsoar.gif";
+import Flutter from "./images/flutter.gif";
 
 function FieldGuide() {
     return (
@@ -27,14 +28,14 @@ function FieldGuide() {
                                 Others flutter about, seemingly haphazardly, while navigating dense networks of passages 
                                 like city canyons or leafy brambles and flap almost continuously.
                             </p>
-                            <Link to="/soar">
-                                <button id="soar">Soaring</button>
-                            </Link>
                         </div>
                     </Col>
                     <Col size="md-4">
                         <Row>
                             <img src={Dragonsoar} alt="soar gif" id="gif" />
+                        </Row>
+                        <Row>
+                            <img src={Flutter} alt="flutter gif" id="gif" />
                         </Row>
                     </Col>
                     <Col size="md-4" id="guides">
