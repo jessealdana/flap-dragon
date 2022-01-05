@@ -5,7 +5,7 @@ function Nav() {
   const [store] = useStoreContext();
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{height: "5vh"}}>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{height: "auto"}}>
       <a className="navbar-brand" href="/">
         Flappy Dragon
       </a>
