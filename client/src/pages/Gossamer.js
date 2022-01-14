@@ -5,7 +5,8 @@ import GalleryIndex from "../components/GalleryIndex";
 import Footer from "../components/Footer"
 import GossamerDragon from "./images/gossamerDragon.png"
 import Nav from "../components/Nav"
-import Scales from "./images/scales.png"
+import Scales from "./images/scales.png";
+import GossamerPage from "./images/gossamerPage.png"
 
 function Gossamer() {
     return (
@@ -29,10 +30,31 @@ function Gossamer() {
                             The Gossamer Dragon is a shabby, tattered mess.  Its silhouette is hard to distinguish as its great wings gather
                             and drape, spread out upon the ancient branches of old growth cypress deep in the swamp.  Sneaking like weeping 
                             moss, the Gossamer Dragon is able to smother and strangle prey that becomes hopelessly entangled in its scaly webs
-                            of tendon and bone.
+                            of tendon and bone.  As it roosts, a Gossamer Dragon's hide entagles with the tree upon which it rests and, when it 
+                            departs, the dragon leaves behind scattered bits of its hide.  Young Gossamer Dragons develop from this shed
+                            skin, leading some to theorize that this dragon is akin to coral or mushrooms.
                         </p>
                     </div>
                 </Col>
+            </Row>
+            <Row>
+                <img src={GossamerPage} alt="gossamer page" style={{width: "100%", height: "auto"}}/>
+            </Row>
+            <Row>
+                <ul>
+                    <li>
+                        <p>Length: 50'</p> 
+                    </li>
+                    <li>
+                        <p>Wingspan: 75'</p>
+                    </li>
+                    <li>
+                        <p>Socialization: Solitary</p>
+                    </li>
+                    <li>
+                        <p>Song: Mute</p>
+                    </li>
+                </ul>
             </Row>
             <Row>
                 <img src={Scales} alt="scales"  id="scaly"/>

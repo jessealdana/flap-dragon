@@ -6,6 +6,7 @@ import Footer from "../components/Footer"
 import ShelledDragon from "./images/shelledDragon.png"
 import Nav from "../components/Nav";
 import Scales from "./images/scales.png";
+import ShelledPage from "./images/shelledPage.png";
 
 function Shelled() {
     return (
@@ -33,6 +34,25 @@ function Shelled() {
                         </p>
                     </div>
                 </Col>
+            </Row>
+            <Row>
+                <img src={ShelledPage} alt="shelled page" style={{width: "100%", height: "auto"}}/>
+            </Row>
+            <Row>
+                <ul>
+                    <li>
+                        <p>Length: 60'</p> 
+                    </li>
+                    <li>
+                        <p>Wingspan: 40'</p>
+                    </li>
+                    <li>
+                        <p>Socialization: Solitary.</p>
+                    </li>
+                    <li>
+                        <p>Song: A low, thrumming croak.</p>
+                    </li>
+                </ul>
             </Row>
             <Row>
                 <img src={Scales} alt="scales"  id="scaly"/>

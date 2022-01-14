@@ -6,6 +6,7 @@ import Footer from "../components/Footer"
 import ShimmerDragon from "./images/shimmerDragon.png"
 import Nav from "../components/Nav";
 import Scales from "./images/scales.png";
+import ShimmerPage from "./images/shimmerPage.png";
 
 function Shimmer() {
     return (
@@ -35,6 +36,25 @@ function Shimmer() {
                         </p>
                     </div>
                 </Col>
+            </Row>
+            <Row>
+                <img src={ShimmerPage} alt="shimmer page" style={{width: "100%", height: "auto"}}/>
+            </Row>
+            <Row>
+                <ul>
+                    <li>
+                        <p>Length: Unknown</p> 
+                    </li>
+                    <li>
+                        <p>Wingspan: Unknown</p>
+                    </li>
+                    <li>
+                        <p>Socialization: N/A</p>
+                    </li>
+                    <li>
+                        <p>Song: Unknown</p>
+                    </li>
+                </ul>
             </Row>
             <Row>
                 <img src={Scales} alt="scales"  id="scaly"/>

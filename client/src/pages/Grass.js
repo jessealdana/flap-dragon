@@ -5,7 +5,8 @@ import GalleryIndex from "../components/GalleryIndex";
 import Footer from "../components/Footer"
 import GrassDragon from "./images/grassDragon.png"
 import Nav from "../components/Nav"
-import Scales from "./images/scales.png"
+import Scales from "./images/scales.png";
+import GrassPage from "./images/grassPage.png"
 
 function Grass() {
     return (
@@ -36,6 +37,25 @@ function Grass() {
                         </p>
                     </div>
                 </Col>
+            </Row>
+            <Row>
+                <img src={GrassPage} alt="grass page" style={{width: "100%", height: "auto"}}/>
+            </Row>
+            <Row>
+                <ul>
+                    <li>
+                        <p>Length: 12"</p> 
+                    </li>
+                    <li>
+                        <p>Wingspan: 18"</p>
+                    </li>
+                    <li>
+                        <p>Socialization: Flocks of up to one thousand individuals are not uncommon.</p>
+                    </li>
+                    <li>
+                        <p>Song: A high, reedy piping</p>
+                    </li>
+                </ul>
             </Row>
             <Row>
                 <img src={Scales} alt="scales"  id="scaly"/>

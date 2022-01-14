@@ -6,6 +6,7 @@ import Footer from "../components/Footer"
 import SnowDragon from "./images/snowDragon.png"
 import Nav from "../components/Nav";
 import Scales from "./images/scales.png";
+import SnowPage from "./images/snowPage.png";
 
 function Snow() {
     return (
@@ -35,6 +36,25 @@ function Snow() {
                         </p>
                     </div>
                 </Col>
+            </Row>
+            <Row>
+                <img src={SnowPage} alt="snow page" style={{width: "100%", height: "auto"}}/>
+            </Row>
+            <Row>
+                <ul>
+                    <li>
+                        <p>Length: 200'</p> 
+                    </li>
+                    <li>
+                        <p>Wingspan: 300'</p>
+                    </li>
+                    <li>
+                        <p>Socialization: Mating pairs by season.</p>
+                    </li>
+                    <li>
+                        <p>Song: A harsh, braying trumpet</p>
+                    </li>
+                </ul>
             </Row>
             <Row>
                 <img src={Scales} alt="scales"  id="scaly"/>

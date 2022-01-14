@@ -6,6 +6,7 @@ import Footer from "../components/Footer"
 import WightDragon from "./images/wightDragon.png"
 import Nav from "../components/Nav";
 import Scales from "./images/scales.png";
+import WightPage from "./images/wightPage.png"
 
 function Wight() {
     return (
@@ -33,6 +34,25 @@ function Wight() {
                         </p>
                     </div>
                 </Col>
+            </Row>
+            <Row>
+                <img src={WightPage} alt="wight page" style={{width: "100%", height: "auto"}}/>
+            </Row>
+            <Row>
+                <ul>
+                    <li>
+                        <p>Length: Unconfirmed at up to 50'. Estimates are based on the sensory effect on living things in the wake of its passage, but it is not known if the Wight Dragon's aura extends beyond its flesh.</p> 
+                    </li>
+                    <li>
+                        <p>Wingspan: Unconfirmed at up to 50'.</p>
+                    </li>
+                    <li>
+                        <p>Socialization: Solitary, but individuals may den in close proximity to one another.</p>
+                    </li>
+                    <li>
+                        <p>Song: A piercing wail.</p>
+                    </li>
+                </ul>
             </Row>
             <Row>
                 <img src={Scales} alt="scales"  id="scaly"/>

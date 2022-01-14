@@ -5,7 +5,8 @@ import GalleryIndex from "../components/GalleryIndex";
 import Footer from "../components/Footer"
 import CoveDragon from "./images/coveDragon.png"
 import Nav from "../components/Nav"
-import Scales from "./images/scales.png"
+import Scales from "./images/scales.png";
+import CovePage from "./images/covePage.png";
 
 function Cove() {
     return (
@@ -36,6 +37,25 @@ function Cove() {
                         </p>
                     </div>
                 </Col>
+            </Row>
+            <Row>
+                <img src={CovePage} alt="cove page" style={{width: "100%", height: "auto"}}/>
+            </Row>
+            <Row>
+                <ul>
+                    <li>
+                        <p>Length: 6"</p> 
+                    </li>
+                    <li>
+                        <p>Wingspan: 8"</p>
+                    </li>
+                    <li>
+                        <p>Socialization: Flocks of up to three hundred individuals are not uncommon.</p>
+                    </li>
+                    <li>
+                        <p>Song: A dry, rasping cough</p>
+                    </li>
+                </ul>
             </Row>
             <Row>
                 <img src={Scales} alt="scales"  id="scaly"/>

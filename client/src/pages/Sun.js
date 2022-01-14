@@ -6,6 +6,7 @@ import Footer from "../components/Footer"
 import SunDragon from "./images/sunDragon.png"
 import Nav from "../components/Nav";
 import Scales from "./images/scales.png";
+import SunPage from "./images/sunPage.png"
 
 function Sun() {
     return (
@@ -37,6 +38,25 @@ function Sun() {
                         </p>
                     </div>
                 </Col>
+            </Row>
+            <Row>
+                <img src={SunPage} alt="sun page" style={{width: "100%", height: "auto"}}/>
+            </Row>
+            <Row>
+                <ul>
+                    <li>
+                        <p>Length: 200'</p> 
+                    </li>
+                    <li>
+                        <p>Wingspan: 500'</p>
+                    </li>
+                    <li>
+                        <p>Socialization: Mating pairs for life.</p>
+                    </li>
+                    <li>
+                        <p>Song: A ringing bugle call.</p>
+                    </li>
+                </ul>
             </Row>
             <Row>
                 <img src={Scales} alt="scales"  id="scaly"/>

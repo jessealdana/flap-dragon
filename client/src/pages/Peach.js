@@ -6,6 +6,7 @@ import Footer from "../components/Footer"
 import PeachDragon from "./images/peachDragon.png"
 import Nav from "../components/Nav"
 import Scales from "./images/scales.png";
+import PeachPage from "./images/peachPage.png"
 
 function Peach() {
     return (
@@ -35,6 +36,25 @@ function Peach() {
                         </p>
                     </div>
                 </Col>
+            </Row>
+            <Row>
+                <img src={PeachPage} alt="peach page" style={{width: "100%", height: "auto"}}/>
+            </Row>
+            <Row>
+                <ul>
+                    <li>
+                        <p>Length: 48"</p> 
+                    </li>
+                    <li>
+                        <p>Wingspan: 18"</p>
+                    </li>
+                    <li>
+                        <p>Socialization: Solitary or seasonal family groupings.</p>
+                    </li>
+                    <li>
+                        <p>Song: A low, husky warbling often associated with a succesful hunt.</p>
+                    </li>
+                </ul>
             </Row>
             <Row>
                 <img src={Scales} alt="scales"  id="scaly"/>

@@ -6,6 +6,7 @@ import Footer from "../components/Footer"
 import ChimeDragon from "./images/chimeDragon.png"
 import Nav from "../components/Nav"
 import Scales from "./images/scales.png";
+import ChimePage from "./images/chimePage.png";
 
 function Chime() {
     return (
@@ -33,6 +34,25 @@ function Chime() {
                     </p>
                     </div>
                 </Col>
+            </Row>
+            <Row>
+                <img src={ChimePage} alt="chime page" style={{width: "100%", height: "auto"}}/>
+            </Row>
+            <Row>
+                <ul>
+                    <li>
+                        <p>Length: 24'</p> 
+                    </li>
+                    <li>
+                        <p>Wingspan: 24'</p>
+                    </li>
+                    <li>
+                        <p>Socialization: Individuals live in hunting groups of five or six.</p>
+                    </li>
+                    <li>
+                        <p>Song: None, however their scales clash and ring ceaselessly while the volume rises and falls according to the Chime Dragons' moods.</p>
+                    </li>
+                </ul>
             </Row>
             <Row>
                 <img src={Scales} alt="scales"  id="scaly"/>
