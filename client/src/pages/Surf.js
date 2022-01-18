@@ -32,7 +32,7 @@ function Surf() {
                             is powerful and fast, easily seizing a dolphin or seal which it eviscerates in mid-air before 
                             carrying the carcass back to the floating rafts of kelp it prefers as a nest.  Nevertheless, 
                             the Surf Dragon is a doting parent and keeps its kits close by until they are nearly as large as 
-                            the adults. It is not unusual for the young from several broods to hunt with their parents.
+                            adults. It is not unusual for the young from several broods to hunt with their parents.
                         </p>
                     </div>
                 </Col>
