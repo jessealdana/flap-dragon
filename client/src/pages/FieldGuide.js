@@ -5,7 +5,7 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import "./style.css";
 import Scales from "../pages/images/scales.png"
-import Dragonsoar from "./images/dragonsoar.gif";
+import Dragonsoar from "./images/singleFlap.gif";
 import Flutter from "./images/flutter.gif";
 
 function FieldGuide() {
